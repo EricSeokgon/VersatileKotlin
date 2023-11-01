@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="변수 타입 지정은 생략해도 된다">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/nocatch.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/standalone.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/typechecking.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="현명한 경고">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/UnusedInMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Script" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,9 +49,9 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin 스크립트(베타).unused.kts">
-    <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloKt" />
+  <component name="RunManager" selected="Kotlin.UnusedInMainKt">
+    <configuration name="UnusedInMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="essence.UnusedInMainKt" />
       <module name="ProgrammingKotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.UnusedInMainKt" />
         <item itemvalue="Kotlin 스크립트(베타).unused.kts" />
         <item itemvalue="Kotlin 스크립트(베타).standalone.kts" />
         <item itemvalue="Kotlin 스크립트(베타).typechecking.kts" />
         <item itemvalue="Kotlin 스크립트(베타).typeinference.kts" />
-        <item itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +144,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698815698723</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="클래스와 함수는 생략 가능하다">
+      <option name="closed" value="true" />
+      <created>1698818689086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698818689086</updated>
+    </task>
+    <task id="LOCAL-00007" summary="현명한 경고">
+      <option name="closed" value="true" />
+      <created>1698818828036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698818828036</updated>
+    </task>
+    <task id="LOCAL-00008" summary="현명한 경고">
+      <option name="closed" value="true" />
+      <created>1698818873452</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698818873452</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +176,8 @@
     <MESSAGE value="init&#10;바이트코드로 컴파일하고 실행하기" />
     <MESSAGE value="스크입트로 실행하기" />
     <MESSAGE value="변수 타입 지정은 생략해도 된다" />
-    <option name="LAST_COMMIT_MESSAGE" value="변수 타입 지정은 생략해도 된다" />
+    <MESSAGE value="클래스와 함수는 생략 가능하다" />
+    <MESSAGE value="현명한 경고" />
+    <option name="LAST_COMMIT_MESSAGE" value="현명한 경고" />
   </component>
 </project>
