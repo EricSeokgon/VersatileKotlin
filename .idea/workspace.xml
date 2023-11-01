@@ -52,17 +52,10 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin 스크립트(베타).standalone.kts">
+  <component name="RunManager" selected="Kotlin 스크립트(베타).unused.kts">
     <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloKt" />
       <module name="ProgrammingKotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="listktsfiles.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/running/listktsfiles.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,13 +81,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="unused.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingKotlin" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/unused.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin 스크립트(베타).unused.kts" />
         <item itemvalue="Kotlin 스크립트(베타).standalone.kts" />
         <item itemvalue="Kotlin 스크립트(베타).typechecking.kts" />
         <item itemvalue="Kotlin 스크립트(베타).typeinference.kts" />
         <item itemvalue="Kotlin.HelloKt" />
-        <item itemvalue="Kotlin 스크립트(베타).listktsfiles.kts" />
       </list>
     </recent_temporary>
   </component>
