@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="스크입트로 실행하기">
+    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="변수 타입 지정은 생략해도 된다">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/nocatch.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/standalone.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/typechecking.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Script" />
       </list>
     </option>
@@ -48,7 +52,7 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin 스크립트(베타).typeinference.kts">
+  <component name="RunManager" selected="Kotlin 스크립트(베타).standalone.kts">
     <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloKt" />
       <module name="ProgrammingKotlin.main" />
@@ -63,6 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="standalone.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingKotlin" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/standalone.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="typechecking.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingKotlin" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/typechecking.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="typeinference.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
       <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/typeinference.kts" />
@@ -72,6 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin 스크립트(베타).standalone.kts" />
+        <item itemvalue="Kotlin 스크립트(베타).typechecking.kts" />
         <item itemvalue="Kotlin 스크립트(베타).typeinference.kts" />
         <item itemvalue="Kotlin.HelloKt" />
         <item itemvalue="Kotlin 스크립트(베타).listktsfiles.kts" />
@@ -119,13 +139,22 @@
       <option name="project" value="LOCAL" />
       <updated>1698814494418</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="변수 타입 지정은 생략해도 된다">
+      <option name="closed" value="true" />
+      <created>1698815698723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698815698723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init&#10;바이트코드로 컴파일하고 실행하기" />
     <MESSAGE value="스크입트로 실행하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="스크입트로 실행하기" />
+    <MESSAGE value="변수 타입 지정은 생략해도 된다" />
+    <option name="LAST_COMMIT_MESSAGE" value="변수 타입 지정은 생략해도 된다" />
   </component>
 </project>
