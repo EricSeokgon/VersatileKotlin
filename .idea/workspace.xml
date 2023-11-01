@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="init&#10;바이트코드로 컴파일하고 실행하기">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/running/listktsfiles.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="스크입트로 실행하기">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/running/greet.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin Script" />
       </list>
     </option>
@@ -49,7 +48,14 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.HelloKt">
+    <configuration name="HelloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloKt" />
+      <module name="ProgrammingKotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="listktsfiles.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
       <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/running/listktsfiles.kts" />
@@ -59,6 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HelloKt" />
         <item itemvalue="Kotlin 스크립트(베타).listktsfiles.kts" />
       </list>
     </recent_temporary>
@@ -88,12 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698812713467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="스크입트로 실행하기">
+      <option name="closed" value="true" />
+      <created>1698813456557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698813456557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init&#10;바이트코드로 컴파일하고 실행하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="init&#10;바이트코드로 컴파일하고 실행하기" />
+    <MESSAGE value="스크입트로 실행하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="스크입트로 실행하기" />
   </component>
 </project>
