@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="현명한 경고" />
+    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="문자열 템플릿">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/mutateconfusion.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Script" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -47,7 +50,7 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin 스크립트(베타).mutate.kts">
+  <component name="RunManager" selected="Kotlin 스크립트(베타).mutateconfusion.kts">
     <configuration name="UnusedInMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="essence.UnusedInMainKt" />
       <module name="ProgrammingKotlin.main" />
@@ -62,16 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="standalone.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="mutateconfusion.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/standalone.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/mutateconfusion.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="typechecking.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="stringtemplate.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/typechecking.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/stringtemplate.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin 스크립트(베타).mutateconfusion.kts" />
+        <item itemvalue="Kotlin 스크립트(베타).stringtemplate.kts" />
         <item itemvalue="Kotlin 스크립트(베타).mutate.kts" />
         <item itemvalue="Kotlin.UnusedInMainKt" />
         <item itemvalue="Kotlin 스크립트(베타).unused.kts" />
-        <item itemvalue="Kotlin 스크립트(베타).standalone.kts" />
-        <item itemvalue="Kotlin 스크립트(베타).typechecking.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698819003612</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="var 보다는 val">
+      <option name="closed" value="true" />
+      <created>1698819216460</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698819216460</updated>
+    </task>
+    <task id="LOCAL-00011" summary="문자열 템플릿">
+      <option name="closed" value="true" />
+      <created>1698824170891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698824170891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +203,8 @@
     <MESSAGE value="변수 타입 지정은 생략해도 된다" />
     <MESSAGE value="클래스와 함수는 생략 가능하다" />
     <MESSAGE value="현명한 경고" />
-    <option name="LAST_COMMIT_MESSAGE" value="현명한 경고" />
+    <MESSAGE value="var 보다는 val" />
+    <MESSAGE value="문자열 템플릿" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열 템플릿" />
   </component>
 </project>
