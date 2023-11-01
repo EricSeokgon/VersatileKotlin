@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="현명한 경고">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/UnusedInMain.kt" afterDir="false" />
-    </list>
+    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="현명한 경고" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,10 +47,17 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.UnusedInMainKt">
+  <component name="RunManager" selected="Kotlin 스크립트(베타).mutate.kts">
     <configuration name="UnusedInMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="essence.UnusedInMainKt" />
       <module name="ProgrammingKotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mutate.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingKotlin" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/mutate.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,13 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="typeinference.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/typeinference.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="unused.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
       <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/unused.kts" />
@@ -87,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin 스크립트(베타).mutate.kts" />
         <item itemvalue="Kotlin.UnusedInMainKt" />
         <item itemvalue="Kotlin 스크립트(베타).unused.kts" />
         <item itemvalue="Kotlin 스크립트(베타).standalone.kts" />
         <item itemvalue="Kotlin 스크립트(베타).typechecking.kts" />
-        <item itemvalue="Kotlin 스크립트(베타).typeinference.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698818873452</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="현명한 경고">
+      <option name="closed" value="true" />
+      <created>1698819003612</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698819003612</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
