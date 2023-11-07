@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="문자열 템플릿">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/mutateconfusion.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/equality.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,18 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin 스크립트(베타).mutateconfusion.kts">
+}</component>
+  <component name="RunManager" selected="Kotlin 스크립트(베타).equality.kts">
     <configuration name="UnusedInMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="essence.UnusedInMainKt" />
       <module name="ProgrammingKotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="equality.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="ProgrammingKotlin" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/equality.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,20 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unused.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/unused.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin 스크립트(베타).equality.kts" />
         <item itemvalue="Kotlin 스크립트(베타).mutateconfusion.kts" />
         <item itemvalue="Kotlin 스크립트(베타).stringtemplate.kts" />
         <item itemvalue="Kotlin 스크립트(베타).mutate.kts" />
         <item itemvalue="Kotlin.UnusedInMainKt" />
-        <item itemvalue="Kotlin 스크립트(베타).unused.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698824170891</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="문자열 템플릿">
+      <option name="closed" value="true" />
+      <created>1698825762149</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698825762149</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
