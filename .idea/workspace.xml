@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="멀티라인 문자열">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/essence/nestedmemo.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699335711757</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="멀티라인 문자열">
+      <option name="closed" value="true" />
+      <created>1699336018280</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699336018280</updated>
+    </task>
+    <task id="LOCAL-00016" summary="멀티라인 문자열">
+      <option name="closed" value="true" />
+      <created>1699336299700</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699336299700</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
