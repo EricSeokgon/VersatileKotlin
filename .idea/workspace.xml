@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="키스 함수">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/inferunit.kts" afterDir="false" />
+    <list default="true" id="072c3d1f-c1de-4d49-a0d4-5c75e8914587" name="변경" comment="모든 함수는 표현식이다.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/multilinefunction.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions/passingarguments.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Script" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -49,7 +51,12 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin 스크립트(베타).nestedmemo.kts">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\ProgrammingKotlin\src\main\kotlin\functions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin 스크립트(베타).multilinefunction.kts">
     <configuration name="equality.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
       <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/equality.kts" />
@@ -64,9 +71,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mutateconfusion.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="multilinefunction.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/mutateconfusion.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/functions/multilinefunction.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,20 +85,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringtemplate.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="passingarguments.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ProgrammingKotlin" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/essence/stringtemplate.kts" />
+      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/functions/passingarguments.kts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin 스크립트(베타).multilinefunction.kts" />
+        <item itemvalue="Kotlin 스크립트(베타).passingarguments.kts" />
         <item itemvalue="Kotlin 스크립트(베타).nestedmemo.kts" />
         <item itemvalue="Kotlin 스크립트(베타).memo.kts" />
         <item itemvalue="Kotlin 스크립트(베타).equality.kts" />
-        <item itemvalue="Kotlin 스크립트(베타).mutateconfusion.kts" />
-        <item itemvalue="Kotlin 스크립트(베타).stringtemplate.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699430013470</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="모든 함수는 표현식이다.">
+      <option name="closed" value="true" />
+      <created>1699430192017</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699430192017</updated>
+    </task>
+    <task id="LOCAL-00019" summary="모든 함수는 표현식이다.">
+      <option name="closed" value="true" />
+      <created>1699430285281</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699430285282</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,6 +278,7 @@
     <MESSAGE value="향상된 동일성 체크" />
     <MESSAGE value="멀티라인 문자열" />
     <MESSAGE value="키스 함수" />
-    <option name="LAST_COMMIT_MESSAGE" value="키스 함수" />
+    <MESSAGE value="모든 함수는 표현식이다." />
+    <option name="LAST_COMMIT_MESSAGE" value="모든 함수는 표현식이다." />
   </component>
 </project>
